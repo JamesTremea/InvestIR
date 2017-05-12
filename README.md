@@ -1,4 +1,4 @@
 # InvestIR
-Um sistema para ajudar o pequeno e médio investidor na bolsa
+Um sistema para ajudar o pequeno e mÃ©dio investidor na bolsa
 
-[(documentação)]-(./wiki)
+[DocumentaÃ§Ã£o](https://github.com/JamesTremea/InvestIR/wiki)
