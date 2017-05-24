@@ -1,0 +1,40 @@
+.big-font {
+  font-size: 38px;
+}
+.panel-gray {
+  border-color: #aaaaaa;
+  margin: 0px;
+}
+.panel-gray > .panel-heading {
+  border-color: #ededed;
+  color: black;
+  background-color: #ededed;
+}
+.panel-gray > a {
+  color: #ededed;
+}
+.panel-gray > a:hover {
+  color: #aaaaaa;
+}
+.panel-gray > label, .panel-gray > input {
+  padding: 1px;
+}
+
+.panel-gray > div , .panel-gray > div > div, .panel-gray > div > div > div {
+  padding: 1px;
+  margin: 1px;
+}
+
+.lista_quant,
+.lista_tipo,
+.lista_ticker
+{
+	width: 80%;
+}
+
+.lista_vcto,
+.lista_pr_med,
+.lista_botao
+{
+	width: 60%;
+}
