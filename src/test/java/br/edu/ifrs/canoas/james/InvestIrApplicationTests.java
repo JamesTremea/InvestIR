@@ -1,4 +1,4 @@
-package br.edu.ifrs.canoas.lds;
+package br.edu.ifrs.canoas.james;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.fluentlenium.assertj.FluentLeniumAssertions.assertThat;
@@ -18,18 +18,18 @@ import org.springframework.test.context.junit4.SpringRunner;
 @Wait
 public class InvestIrApplicationTests extends FluentTest{
 
-	
-	@Value("${local.server.port}") 
+
+	@Value("${local.server.port}")
 	private int port;
-	
+
 	String getHost(){
 		return "http://localhost:" + port + "/prototipo/index.html";
 	}
-	
+
 	@Test
     public void executa_login_no_sistema_e_vai_para_tela_inicial() {
 		//Vai para http://localhost:"+ port+ "/prototipo/index.html
-        goTo(getHost());     
+        goTo(getHost());
         //Verifica que o título da página é da aplicação
         assertThat(window().title()).contains("InvestIR - Amanse o leão");
         //Clica no botão Login
